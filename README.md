@@ -1,4 +1,4 @@
-# Raiyan Bin Sarwar
+# Declan McAlinden
 Welcome to my personal portfolio! I’m a MSC Artificial Intelligence for Biomedicine and Healthcare student at University College London.
 
 ## About Me
