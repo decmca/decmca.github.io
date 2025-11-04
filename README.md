@@ -10,4 +10,4 @@ I have experience in AI computing, low-code platforms, and technology communitie
 - Alteryx and 3LC
 
 ## Contact
-You can reach me at [LinkedIn]https://www.linkedin.com/in/dmuk/ or [GitHub](https://github.com/decmca).
+You can reach me at [LinkedIn](https://www.linkedin.com/in/dmuk/) or [GitHub](https://github.com/decmca).
