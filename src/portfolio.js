@@ -8,10 +8,10 @@ const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Declan McAlinden',
   role: 'Data Scientist / Artificial Intelligence Researcher',
-  picture: 'https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png',
+  picture: '',
 
   description:
-    'Add description.',
+    'Welcome to my portfolio. There are a number of projects linked below, that demonstrate my skills in coding bespoke solutions as well as implementing open-source tools and adapting these for a use-case.',
   resume: 'https://example.com',
   social: {
     linkedin: 'https://www.linkedin.com/in/dmuk/',
@@ -25,28 +25,65 @@ const projects = [
   {
     name: 'Early prediction of Alzheimer\'s using Network Spreading Models.',
     description:
-      'Add Description',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-    image: 'cleanfolio.png',
+      'Utilised the UCL Pond Network Spreading Model and the Google Brain Connectivity toolboxes to predict the early onset of Alzheimers Disease. Key contributions included re-working the toolbox to utilise a random forest based optimisation, enabling a 25x speed up for permutation testing and the additional of a fourth model to the toolbox that improved early-onset detection. This was completed as part of my UCL MSc and was graded at 96%.',
+    stack: ['Dementia', 'Biomedicine', 'Physics-informed ML'],
+    sourceCode: 'https://github.com/decmca/Alzheimers_Prediction',
+    livePreview: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5707002',
+    image: 'Alzheimers.png',
+  },
+        {
+    name: 'Top 5 UK Supermarket Web Scraper, Product Analysis and Price Comparison Tool',
+    description:
+      'Web-scraped product data from the top 5 UK supermarkets (Tesco, Sainsbury\'s, Asda, Morrisons, and Aldi) to create a product analysis / price comparison tool. This project involved handling dynamic web content, data cleaning / standardisation, data analysis and building a user-friendly interface to visualise product and compare prices across different retailers in Streamlit. This mini-application was fully automated from web-scraping to deployment.',
+    stack: ['Streamlit', 'Selenium', 'Automation'],
+    sourceCode: 'https://uksupermarketscraping.streamlit.app/Process_Explanation',
+    livePreview: 'https://uksupermarketscraping.streamlit.app/',
+    image: 'UK_Webscraper.png',
   },
   {
-    name: 'Project 2',
+    name: 'Fourth Placed Kaggle Competition Solution: X-Ray Chest Disease Classification',
     description:
-      'Add Description',
-    stack: ['SASS', 'TypeScript', 'React'],
+      'This fourth-placed Kaggle solution for chest X-ray disease classification employs a robust ensemble of Swin, ConvNeXt, and EVA-X models, trained with stratified K-fold cross-validation on diverse X-Ray datasets. The approach integrates advanced medical image augmentations, progressive regularisation, and test-time augmentation to enhance generalisation and reliability. Model configurations are optimised for large-scale medical imaging, and the pipeline automates training, validation, and inference, delivering high performance on a challenging multi-label task. The final score was less than 0.003 from first place.',
+    stack: ['X-Ray', 'Medical Imaging', 'Classification'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
-    image: 'https://github.githubassets.com/assets/GitHub-Logo-ee398b662d42.png',
+    image: 'x_ray.jpg',
+  },
+    {
+    name: 'Robotic Arm Movement Detection using Computer Vision',
+    description:
+      'This project focuses on detecting and classifying the movements of a robotic arm using computer vision techniques. By leveraging advanced image processing and machine learning algorithms, the system can accurately identify different types of movements and estimate the next pose. This was completed as part of my UCL MSc and was graded at 89%. Note that the architecure choices were restricted (i.e. We could not use YOLO etc).',
+    stack: ['Python', 'Computer Vision', 'Robotics'],
+    sourceCode: 'https://github.com/decmca/Robotic_Arm_Movement_Prediction',
+    livePreview: 'https://github.com',
+    image: 'jaco_play_teaser.jpeg',
+  },
+    {
+    name: 'Using 3LC for a train-fix-retrain object detection workflow',
+    description:
+      'This project showcases an iterative, data-centric approach to object detection using 3LC to fix mislabeled bounding boxes. The improved dataset increases validation MAP50 by 5%. This demonstrates an effective way to improve performance on small datasets in a semi-automated manner.',
+    stack: ['Train-Fix-Retrain', '3LC', 'Object Detection'],
+    sourceCode: 'https://github.com',
+    livePreview: 'https://github.com',
+    image: '3LC_Zoomed_In_Missing_Label.png',
   },
   {
-    name: 'Project 3',
+    name: 'LLM retrieval etc style of project using open source tools',
     description:
       'Add Description',
-    stack: ['SASS', 'TypeScript', 'React'],
+    stack: ['Python', 'LLM', 'RAG'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
+    image: '',
+  },
+    {
+    name: 'MSc Dissertation Placeholder',
+    description:
+      'To be added after expiration of Non-Disclosure Agreement.',
+    stack: ['', ],
+    sourceCode: '',
+    livePreview: '',
+    image: '',
   },
 ]
 
