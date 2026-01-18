@@ -25,7 +25,7 @@ const projects = [
   {
     name: 'Flexible Amyloid-tau Coupling Improves Tau Pathology Prediction In Alzheimer’s Disease',
     description:
-      'Utilised the UCL Pond Network Spreading Model and the Google Brain Connectivity toolboxes to predict the early onset of Alzheimers Disease. Key contributions included re-working the toolbox to utilise a random forest based optimisation, enabling a 25x speed up for permutation testing and the additional of a fourth model to the toolbox that significantly reduced SSE for amyloid positive individuals. The model therefore has implications for designing and evaluating clinical trials of Alzheimer’s disease-modifying anti-tau therapies. This work has been submitted for publication by the Alzheimer\'s Association and is currently under review.',
+      'Utilised the UCL Pond Network Spreading Model and the Google Brain Connectivity toolboxes to predict the early onset of Alzheimers Disease. Key contributions included re-working the toolbox to utilise a random forest based optimisation, enabling a 25x speed up for permutation testing and the additional of a fourth model to the toolbox that significantly reduced SSE for amyloid positive individuals. The model therefore has implications for designing and evaluating clinical trials of Alzheimer’s disease-modifying anti-tau therapies. An adapted version of this work has been submitted for publication by the Alzheimer\'s Association and is currently under review.',
     stack: ['Dementia', 'Biomedicine', 'Biomarkers', 'Physics-informed ML'],
     sourceCode: 'https://github.com/decmca/Alzheimers_Prediction',
     livePreview: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5707002',
@@ -52,7 +52,7 @@ const projects = [
     {
     name: 'Robotic Arm Movement Detection using Computer Vision',
     description:
-      'This project focuses on detecting and classifying the movements of a robotic arm using computer vision techniques. By leveraging advanced image processing and machine learning algorithms, the system can accurately identify different types of movements and estimate the next pose. This was completed as part of my UCL MSc and was graded at 89%. Note that the architecure choices were restricted (i.e. We could not use YOLO etc).',
+      'This project focuses on detecting and classifying the movements of a robotic arm using computer vision techniques. By leveraging advanced image processing and machine learning algorithms, the system can accurately identify different types of movements and estimate the next pose. This was completed as part of my UCL MSc and was graded at 89%. Note that the architecure choices were restricted, as no pre-trained models could be utilised.',
     stack: ['Python', 'Computer Vision', 'Robotics'],
     sourceCode: 'https://github.com/decmca/Robotic_Arm_Movement_Prediction',
     livePreview: 'https://github.com',
