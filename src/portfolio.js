@@ -25,7 +25,7 @@ const projects = [
   {
     name: 'Flexible Amyloid-tau Coupling Improves Tau Pathology Prediction In Alzheimer’s Disease',
     description:
-      'Utilised the UCL Pond Network Spreading Model and the Google Brain Connectivity toolboxes to predict the early onset of Alzheimers Disease. Key contributions included re-working the toolbox to utilise a random forest based optimisation, enabling a 25x speed up for permutation testing and the additional of a fourth model to the toolbox that significantly reduced SSE for amyloid positive individuals. This work has been submitted for publication by the Alzheimer\'s Association and is currently under review.',
+      'Utilised the UCL Pond Network Spreading Model and the Google Brain Connectivity toolboxes to predict the early onset of Alzheimers Disease. Key contributions included re-working the toolbox to utilise a random forest based optimisation, enabling a 25x speed up for permutation testing and the additional of a fourth model to the toolbox that significantly reduced SSE for amyloid positive individuals. The model therefore has implications for designing and evaluating clinical trials of Alzheimer’s disease-modifying anti-tau therapies. This work has been submitted for publication by the Alzheimer\'s Association and is currently under review.',
     stack: ['Dementia', 'Biomedicine', 'Biomarkers', 'Physics-informed ML'],
     sourceCode: 'https://github.com/decmca/Alzheimers_Prediction',
     livePreview: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5707002',
