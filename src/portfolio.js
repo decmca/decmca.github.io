@@ -12,7 +12,7 @@ const about = {
 
   description:
     'Welcome to my portfolio. There are a number of projects linked below, that demonstrate my skills in coding bespoke solutions as well as implementing open-source tools and adapting these for a use-case.',
-  resume: 'https://drive.google.com/file/d/1NlGVQroyH4rCWFvXcIaoCVzgy9ytf4De/view?usp=drive_link',
+  resume: 'https://drive.google.com/drive/folders/1dk5ho-btXlf6bwUIOayfV4lrM0fAreTp?usp=drive_link',
   social: {
     linkedin: 'https://www.linkedin.com/in/dmuk/',
     github: 'https://github.com/decmca',
