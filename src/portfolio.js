@@ -12,7 +12,7 @@ const about = {
 
   description:
     'Welcome to my portfolio. There are a number of projects linked below, that demonstrate my skills in coding bespoke solutions as well as implementing open-source tools and adapting these for a use-case.',
-  resume: 'https://example.com',
+  resume: 'https://drive.google.com/file/d/1NlGVQroyH4rCWFvXcIaoCVzgy9ytf4De/view?usp=drive_link',
   social: {
     linkedin: 'https://www.linkedin.com/in/dmuk/',
     github: 'https://github.com/decmca',
@@ -26,7 +26,7 @@ const projects = [
     name: 'Flexible Amyloid-tau Coupling Improves Tau Pathology Prediction In Alzheimer’s Disease',
     description:
       'Utilised the UCL Pond Network Spreading Model and the Google Brain Connectivity toolboxes to predict the early onset of Alzheimers Disease. Key contributions include re-working the toolbox to utilise a random forest based optimisation, enabling a 25x speed up for permutation testing and the additional of a fourth model to the toolbox that significantly reduced SSE, by between 17.46% to 24.40% for amyloid positive individuals. The model therefore has implications for designing and evaluating clinical trials of Alzheimer’s disease-modifying anti-tau therapies. An adapted version of this work has been submitted for publication by the Alzheimer\'s Association and is currently under review.',
-    stack: ['Dementia', 'Biomedicine', 'Biomarkers', 'Physics-informed ML'],
+    stack: ['Dementia', 'Biomarkers', 'Physics-informed ML'],
     sourceCode: 'https://github.com/ucl-pond/network_spreading_models',
     livePreview: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5707002',
     image: 'Alzheimers.png',
