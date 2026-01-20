@@ -12,7 +12,7 @@ const about = {
 
   description:
     'Welcome to my portfolio. There are a number of projects linked below, that demonstrate my skills in coding bespoke solutions as well as implementing open-source tools and adapting these for a use-case.',
-  resume: 'https://drive.google.com/drive/folders/1dk5ho-btXlf6bwUIOayfV4lrM0fAreTp?usp=drive_link',
+  resume: 'https://drive.google.com/file/d/1tRkovnawq9GWSSHrSGCeInfrJNwalhMN/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/dmuk/',
     github: 'https://github.com/decmca',
@@ -68,7 +68,7 @@ const projects = [
       'This project showcases an iterative, data-centric approach to object detection using 3LC to fix mislabeled bounding boxes. The improved dataset increases validation MAP50 by 5%. This demonstrates an effective way to improve performance on small datasets in a semi-automated manner.',
     stack: ['Train-Fix-Retrain', '3LC', 'Object Detection'],
     sourceCode: 'https://github.com/decmca/cotton_weed/tree/main',
-    livePreview: 'https://drive.google.com/drive/folders/1fn9sSSS_yAylmyG05REGJmQU2c4DHH8c?usp=drive_link',
+    livePreview: 'https://drive.google.com/drive/folders/1fn9sSSS_yAylmyG05REGJmQU2c4DHH8c?usp=sharing',
     image: '3LC_Zoomed_In_Missing_Label.png',
   },
   /* 
