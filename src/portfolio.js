@@ -46,7 +46,9 @@ const projects = [
       'This fourth-placed Kaggle solution for chest X-ray disease classification employs a robust ensemble of Swin, ConvNeXt, and EVA-X models, trained with stratified K-fold cross-validation on diverse X-Ray datasets. The approach integrates advanced medical image augmentations, progressive regularisation, and test-time augmentation to enhance generalisation and reliability. Model configurations are optimised for large-scale medical imaging, and the pipeline automates training, validation, and inference, delivering high performance on a challenging multi-label task. The final score was less than 0.003 from first place.',
     stack: ['X-Ray', 'Medical Imaging', 'Classification'],
     sourceCode: 'https://github.com/decmca/X_Ray_Imaging_Project',
+    /*
     livePreview: 'https://github.com',
+    */
     image: 'x_ray.jpg',
   },
     {
@@ -55,7 +57,9 @@ const projects = [
       'This project focuses on detecting and classifying the movements of a robotic arm using computer vision techniques. By leveraging advanced image processing and machine learning algorithms, the system can accurately identify different types of movements and estimate the next pose. This was completed as part of my UCL MSc and was graded at 89%. Note that the architecure choices were restricted, as no pre-trained models could be utilised.',
     stack: ['Python', 'Computer Vision', 'Robotics'],
     sourceCode: 'https://github.com/decmca/Robotic_Arm_Movement_Prediction',
+    /*
     livePreview: 'https://github.com',
+    */
     image: 'jaco_play_teaser.jpeg',
   },
     {
@@ -63,8 +67,8 @@ const projects = [
     description:
       'This project showcases an iterative, data-centric approach to object detection using 3LC to fix mislabeled bounding boxes. The improved dataset increases validation MAP50 by 5%. This demonstrates an effective way to improve performance on small datasets in a semi-automated manner.',
     stack: ['Train-Fix-Retrain', '3LC', 'Object Detection'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    sourceCode: 'https://github.com/decmca/cotton_weed/tree/main',
+    livePreview: 'https://drive.google.com/drive/folders/1fn9sSSS_yAylmyG05REGJmQU2c4DHH8c?usp=drive_link',
     image: '3LC_Zoomed_In_Missing_Label.png',
   },
   /* 
