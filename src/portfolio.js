@@ -67,7 +67,7 @@ const projects = [
     description:
       'This project showcases an iterative, data-centric approach to object detection using 3LC to fix mislabeled bounding boxes. The improved dataset increases validation MAP50 by 5%. This demonstrates an effective way to improve performance on small datasets in a semi-automated manner.',
     stack: ['Train-Fix-Retrain', '3LC', 'Object Detection'],
-    sourceCode: 'https://github.com/decmca/cotton_weed/tree/main',
+    sourceCode: 'https://github.com/decmca/cotton_weed',
     livePreview: 'https://drive.google.com/drive/folders/1fn9sSSS_yAylmyG05REGJmQU2c4DHH8c?usp=sharing',
     image: '3LC_Zoomed_In_Missing_Label.png',
   },
