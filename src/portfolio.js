@@ -25,7 +25,7 @@ const projects = [
   {
     name: 'Flexible Amyloid-tau Coupling Improves Tau Pathology Prediction In Alzheimer’s Disease',
     description:
-      'Utilised the UCL Pond Network Spreading Model and the Google Brain Connectivity toolboxes to predict the early onset of Alzheimers Disease. Key contributions include re-working the toolbox to utilise a random forest based optimisation, enabling a 25x speed up for permutation testing and the additional of a fourth model to the toolbox. An adapted version of this work, utilising individual amyloid and tau connectome strengths instead of varying the connectomes, has been submitted for publication by the Alzheimer\'s Association and is currently under review. The new model significantly reduced SSE, by between 17.46% to 24.40% for amyloid positive individuals and therefore has implications for designing and evaluating clinical trials of Alzheimer’s disease-modifying anti-tau therapies.  ',
+      'Utilised the UCL Pond Network Spreading Model and the Google Brain Connectivity toolboxes to predict the early onset of Alzheimers Disease. Key contributions include re-working the toolbox to utilise a random forest based optimisation, enabling a 25x speed up for permutation testing and the additional of a fourth model to the toolbox. An adapted version of this work, utilising individual amyloid and tau connectome strengths instead of varying the connectomes, has been submitted for publication by the Alzheimer\'s Association and is currently under review. The new model significantly reduced SSE, by between 17.46% to 24.40% for amyloid positive individuals, and therefore has implications for designing and evaluating clinical trials of Alzheimer’s disease-modifying anti-tau therapies.  ',
     stack: ['Dementia', 'Biomarkers', 'Physics-informed ML'],
     sourceCode: 'https://github.com/ucl-pond/network_spreading_models',
     livePreview: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5707002',
@@ -45,7 +45,7 @@ const projects = [
     description:
       'This fourth-placed Kaggle solution for chest X-ray disease classification employs a robust ensemble of Swin, ConvNeXt, and EVA-X models, trained with stratified K-fold cross-validation on diverse X-Ray datasets. The approach integrates advanced medical image augmentations, progressive regularisation, and test-time augmentation to enhance generalisation and reliability. Model configurations are optimised for large-scale medical imaging, and the pipeline automates training, validation, and inference, delivering high performance on a challenging multi-label task. The final score was less than 0.003 from first place.',
     stack: ['X-Ray', 'Medical Imaging', 'Classification'],
-    sourceCode: 'https://github.com',
+    sourceCode: 'https://github.com/decmca/X_Ray_Imaging_Project',
     livePreview: 'https://github.com',
     image: 'x_ray.jpg',
   },
