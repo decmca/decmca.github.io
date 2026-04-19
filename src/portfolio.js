@@ -31,6 +31,15 @@ const projects = [
     livePreview: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5707002',
     image: 'Alzheimers.png',
   },
+      {
+    name: 'Simulating Realistic 2D Ultrasound Images from 3D CT Scans',
+    description:
+      'This project, completed as part of a research project for Medtronic Digital Technologies, successfully simulated realistic ultrasound images from 3D CT scans. The approach combined significant data pre-processing techniques, including an automated 3D segmentation pipeline around the cropped kidney to extract the relevant section of the CT scan. After this, four generative AI methods, including CycleGAN, Segmentation-Guided CycleGAN, Contrastive Unpaired Translation (CUT) and CycleCUT were evaluated for their ability to generated realistic ultrasound images. Evaluation methods included both qualitative scores of Fréchet Inception Distance and Normalised Mutual Information as well as a qualitative review by two surgeons. The project combined reviews of open-source projects, such as CycleGAN and CUT, with use of custom-built generative AI architectures.',
+    stack: ['Python', 'Medical Imaging', 'Generative AI'],
+    sourceCode: 'https://github.com/decmca/CT2US_Consolidated_Code',
+    livePreview: '',
+    image: 'CUT.png',
+  },
         {
     name: 'Top 5 UK Supermarket Web Scraper, Product Analysis and Price Comparison Tool',
     description:
@@ -82,15 +91,6 @@ const projects = [
     image: '',
   },
   */
-    {
-    name: 'MSc Dissertation Placeholder',
-    description:
-      'To be added after expiration of Non-Disclosure Agreement.',
-    stack: ['', ],
-    sourceCode: '',
-    livePreview: '',
-    image: '',
-  },
 ]
 
 const skills = [
